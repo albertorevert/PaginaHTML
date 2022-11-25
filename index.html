@@ -2,7 +2,7 @@
 <html lang="ca">
     <head>
         <meta charset="UTF-8">
-        <title>TITLE</title>
+        <title>GameHub</title>
         <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
               integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" rel="stylesheet">
         <script crossorigin="anonymous"
@@ -13,38 +13,97 @@
     </head>
 <body>
     <header class="container-fluid">
-        <p>TITLE</p>
+        <p>GameHub</p>
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./html/referencies.html">Referencies</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Videojocs
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./html/tetris.html">Tetris</a></li>
+                                <li><a class="dropdown-item" href="./html/satisfactory.html">Satisfactory</a></li>
+                                <li><a class="dropdown-item" href="./html/rayman.html">Rayman Legends</a></li>
+                                <li><a class="dropdown-item" href="./html/zelda.html">Zelda Breath Of The Wild</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./html/contact.html">Contacte</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
-    <nav class="navbar navbar-expand-lg bg-dark">
-        <div class="container-fluid">
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Referencies</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Videojocs
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="./html/tetris.html">Tetris</a></li>
-                            <li><a class="dropdown-item" href="./html/satisfactory.html">Satisfactory</a></li>
-                            <li><a class="dropdown-item" href="./html/rayman.html">Rayman Legends</a></li>
-                            <li><a class="dropdown-item" href="./html/zelda.html">Zelda Breath Of The Wild</a></li>
-                        </ul>
-                    </li>
-                </ul>
+    <section>
+        <div class="container" id="contentmain">
+            <div class="container">
+                <div class="container welcome">
+                    Benvinguts al GameHub!
+                </div>
+                <div class="container-fluid content">
+                    En aquesta pàgina web ús presentarem varis videojocs. <br>
+                    Com podeu veure a la part superior teniu una barra de navegació, la podeu utilitzar per surcar la web. <br>
+                    Recordem que si vol que s'afageixi algun videojoc ens pot contactar a través del formulari de contacte.
+                </div>
             </div>
         </div>
-    </nav>
-    <section>
-
+        <div id="carouselExampleControls" class="carousel slide imgsurf" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/rayman.png" class="d-block w-100" alt="Rayman Legends">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/satisfactory.png" class="d-block w-100" alt="Satisfactory">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/zelda.png" class="d-block w-100" alt="Zelda Breath Of The Wild">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/tetris.png" class="d-block w-100" alt="Tetris">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Següent</span>
+            </button>
+        </div>
     </section>
     <footer>
-
+        <div class="container">
+            <p id="creators">
+                Els Creadors
+            </p>
+            <p id="names">
+                Pau España
+                <br>
+                Arnau Urtós
+                <br>
+                Sergi Vilagran
+                <br>
+                Alberto Revert
+            </p>
+        </div>
+        <div class="container">
+            <p id="sponsors">
+                Sponsors
+            </p>
+        </div>
     </footer>
 </body>
 </html>
