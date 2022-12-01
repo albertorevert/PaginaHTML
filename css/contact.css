@@ -1,3 +1,33 @@
+* {
+    font-size: 16px;
+}
+
+section div {
+    background-color: #1F2E41FF;
+    border-radius: 1em;
+    color: whitesmoke;
+    padding: 0.5em 1.25em;
+    width: 70%;
+    margin: 0;
+}
+
+section div form {
+    padding-bottom: 1em;
+}
+
+section div form div.form-group {
+    width: 100%
+}
+
+section div form input {
+    width: 100%;
+}
+
+section div form button {
+    position: relative;
+    left: 1.25em;
+}
+
 .navbar-toggler {
     border: whitesmoke;
 }
