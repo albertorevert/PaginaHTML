@@ -1,0 +1,91 @@
+:root {
+    --hfback: #191919;
+    --primaryback: #2D4263;
+}
+
+* {
+    font-size: 16px;
+    color: whitesmoke;
+}
+
+.navbar-toggler {
+    border: whitesmoke;
+}
+
+header {
+    background-color: var(--hfback);
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+nav {
+    border-radius: 1em;
+}
+
+header p {
+    margin: 0;
+    font-size: 2em;
+    padding-bottom: 1em;
+    font-weight: bolder;
+}
+
+section {
+    background-color: var(--primaryback);
+    padding: 2em 2em 40em;
+}
+
+footer {
+    background-color: var(--hfback);;
+    padding: 1em 1em 2em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#creators {
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+#sponsors {
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+footer div:nth-of-type(1) {
+    max-width: 50%;
+    float: left;
+}
+
+footer div:nth-of-type(2) {
+    max-width: 50%;
+    float: right;
+    text-align: right;
+}
+
+ul.submenu a.dropdown-item {
+    font-size: 0.75em;
+}
+
+@media all and (min-width: 992px) {
+    .dropdown-menu li{ position: relative; 	}
+    .nav-item .submenu{
+        display: none;
+        position: absolute;
+        left:100%; top:-7px;
+    }
+    .nav-item .submenu-left{
+        right:100%; left:auto;
+    }
+    .dropdown-menu > li:hover{ background-color: #f1f1f1; cursor: pointer }
+    .dropdown-menu > li:hover > .submenu{ display: block; cursor: pointer }
+}
+
+@media (max-width: 991px) {
+    .dropdown-menu .dropdown-menu{
+        margin-left:0.7rem; margin-right:0.7rem; margin-bottom: 0.5rem;
+    }
+    .dropdown-menu > li:hover{ background-color: #f1f1f1; cursor: pointer }
+    .dropdown-menu > li:hover > .submenu{ display: block; cursor: pointer}
+}

@@ -9,6 +9,8 @@
                 integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
                 src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js">
         </script>
+        <link href= "js/dropdown.js" rel="script">
+        <link href="css/root.css" rel="stylesheet">
         <link href="css/index.css" rel="stylesheet">
     </head>
     <body>
@@ -21,26 +23,44 @@
             <div class="container-fluid">
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./html/referencies.html">Referencies</a>
-                        </li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./html/others/referencies.html">Referencies</a></li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" id="navbarDropdownMenuLink" aria-expanded="true">
                                 Videojocs
                             </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="./html/tetris.html">Tetris</a></li>
-                                <li><a class="dropdown-item" href="./html/satisfactory.html">Satisfactory</a></li>
-                                <li><a class="dropdown-item" href="./html/rayman.html">Rayman Legends</a></li>
-                                <li><a class="dropdown-item" href="./html/zelda.html">Zelda Breath Of The Wild</a></li>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li class="dropdown-item">Aventura &raquo;
+                                    <ul class="submenu dropdown-menu">
+                                        <li>
+                                            <a class="dropdown-item" href="html/games/aventura/zelda.html">Zelda Breath Of The Wild</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-item">Plataformes &raquo;
+                                    <ul class="submenu dropdown-menu">
+                                        <li>
+                                            <a class="dropdown-item" href="html/games/plataformes/rayman.html">Rayman Legends</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-item">Puzle &raquo;
+                                    <ul class="submenu dropdown-menu">
+                                        <li>
+                                            <a class="dropdown-item" href="html/games/puzle/tetris.html">Tetris</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-item">Sandbox &raquo;
+                                    <ul class="submenu dropdown-menu">
+                                        <li>
+                                            <a class="dropdown-item" href="html/games/sandbox/satisfactory.html">Satisfactory</a>
+                                        </li>
+                                    </ul>
+                                </li>
                             </ul>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./html/contact.html">Contacte</a>
-                        </li>
+                        <li class="nav-item"><a class="nav-link" href="html/others/contact.html">Contacte</a></li>
                     </ul>
                 </div>
             </div>
