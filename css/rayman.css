@@ -28,7 +28,7 @@
     position: relative;
     left: 2%;
 }
-.container{
+#box{
     background-color: var(--contentback);
     border-radius: 1em;
     color: whitesmoke;
