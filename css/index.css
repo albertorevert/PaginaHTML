@@ -1,23 +1,22 @@
 @import url("root.css");
 
-#contentmain {
-    background-color: var(--contentback);
-    float: right;
-    max-width: 65%;
-    border-radius: 2em;
+section {
+    max-height: 100%;
 }
 
-.content {
-    max-width: 100%;
-    padding: 1em;
-    width: 100%;
+#contentmain {
+    background-color: var(--contentback);
+    float: top;
+    max-width: 65%;
+    border-radius: 2em;
+    margin: 0 auto;
+    transition: box-shadow 0.5s ease-in-out;
 }
 
 .welcome {
     font-weight: bold;
     text-align: center;
     font-size: 1.5em;
-    float: top;
 }
 
 #contentmain:hover {
@@ -26,19 +25,11 @@
 }
 
 .imgsurf {
-    max-width: 30%;
-    float: left;
+    max-width: 50%;
+    float: bottom;
+    margin: 0 auto;
 }
 
 section div:nth-of-type(1) div {
-    padding: 0.5em
-}
-
-footer {
-    background-color: #191919;
-    color: whitesmoke;
-    padding: 1em 1em 2em;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    padding: 0.5em;
 }
