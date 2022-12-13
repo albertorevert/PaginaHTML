@@ -1,6 +1,6 @@
-
 var header = document.getElementById("footer");
-header.innerHTML = `
+header.innerHTML =
+    `
         <div class="container">
             <p id="creators">
                 Els Creadors
@@ -20,4 +20,4 @@ header.innerHTML = `
                 Sponsors
             </p>
         </div>
-`;
+    `;
