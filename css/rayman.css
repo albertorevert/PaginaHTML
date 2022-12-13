@@ -28,3 +28,14 @@
     position: relative;
     left: 2%;
 }
+.container{
+    background-color: var(--contentback);
+    border-radius: 1em;
+    color: whitesmoke;
+    padding: 0.5em 1.25em;
+    width: 70%;
+    margin: 0;
+}
+#carouselExampleControls{
+    max-width: 50%;
+}
