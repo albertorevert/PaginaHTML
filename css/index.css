@@ -1,5 +1,7 @@
+@import url("root.css");
+
 #contentmain {
-    background-color: #1F2E41FF;
+    background-color: var(--contentback);
     float: right;
     max-width: 65%;
     border-radius: 2em;
