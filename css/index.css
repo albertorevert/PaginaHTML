@@ -4,32 +4,33 @@ section {
     max-height: 100%;
 }
 
-#contentmain {
-    background-color: var(--contentback);
-    float: top;
-    max-width: 65%;
-    border-radius: 2em;
-    margin: 0 auto;
-    transition: box-shadow 0.5s ease-in-out;
-}
-
 .welcome {
     font-weight: bold;
     text-align: center;
     font-size: 1.5em;
 }
 
-#contentmain:hover {
-    transition: box-shadow 0.5s ease-in-out;
-    box-shadow: rgba(154, 154, 154, 0.23) 2px 10px 20px, rgba(154, 154, 154, 0.23) 0 6px 6px;
-}
-
-.imgsurf {
-    max-width: 50%;
-    float: bottom;
-    margin: 0 auto;
-}
-
 section div:nth-of-type(1) div {
     padding: 0.5em;
+}
+
+@media all and (min-width: 992px) {
+
+    .imgsurf {
+        max-width: 50%;
+        float: bottom;
+        margin: 0 auto;
+    }
+
+
+}
+
+@media (max-width: 991px) {
+
+    .imgsurf {
+        max-width: 80%;
+        margin: 0 auto;
+        padding-top: 1em;
+    }
+
 }
