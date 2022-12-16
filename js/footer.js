@@ -18,6 +18,7 @@ header.innerHTML =
         <div class="container">
             <p id="sponsors">
                 Sponsors
+                <div class="logoins"></div>
             </p>
         </div>
     `;

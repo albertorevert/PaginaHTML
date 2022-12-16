@@ -5,12 +5,7 @@
 }
 
 section div {
-    background-color: var(--contentback);
-    border-radius: 1em;
-    color: whitesmoke;
     padding: 0.5em 1.25em;
-    width: 70%;
-    margin: 0;
 }
 
 section div form {
