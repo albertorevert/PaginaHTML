@@ -1,1 +1,10 @@
 @import url("root.css");
+
+
+.imgsurf {
+    max-width: 55%;
+    margin-left: 20em;
+}
+h5{
+    text-shadow: black;
+}
