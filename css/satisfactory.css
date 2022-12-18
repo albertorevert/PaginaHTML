@@ -1,6 +1,33 @@
 @import url("root.css");
 
-.imgsurf {
-    max-width: 40%;
-    margin: 5% 5%;
+#title {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 0.5em;
+}
+
+@media all and (min-width: 992px) {
+
+    .imgsurf {
+        max-width: 40%;
+        margin: 1.25% 2.5%;
+        float: left;
+    }
+
+    #box {
+        max-width: 50%;
+        float: right;
+        margin: 1.25% 2.5%;
+    }
+
+}
+
+@media (max-width: 991px) {
+
+    .imgsurf {
+        max-width: 80%;
+        margin: 1% auto;
+    }
+
 }

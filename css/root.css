@@ -129,8 +129,6 @@ img {
     .dropdown-menu > li:hover > .submenu{ display: block; cursor: pointer }
 
     #inspla { max-width: 10%; }
-
-    .logoins { position: absolute; left: 95%; }
 }
 
 @media (max-width: 991px) {
@@ -145,8 +143,5 @@ img {
     #box {
         width: 80%;
     }
-
-
-    .logoins { position: absolute; left: 75%; }
 
 }
