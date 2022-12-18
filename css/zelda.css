@@ -6,9 +6,19 @@
     margin-left: 20em;
 }
 h5{
-    margin-top: 3em;
+    margin: 3em;
+  
+}
+p{
+    margin-left: 3em;
+    margin-right: 3em;
+ 
+
 }
 
 table{
-    margin-top: 3em;
+    
+    margin: 3em;
+    
+    
 }
