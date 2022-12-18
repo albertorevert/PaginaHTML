@@ -6,21 +6,23 @@
     margin-left: 20em;
 }
 h5{
-    margin-left: 3em;
+    margin-left: 12em;
     margin-top: 3em;
     margin-bottom: 1em;
   
 }
 p{
-    margin-left: 3em;
-    margin-right: 15em;
+    
+   margin-top: 2em;
+   margin-bottom: 2em;
+   margin-left: 3em;
+   margin-right: 3em;
  
 
 }
 
 table{
+    margin-top: 2em;
     max-width: 30%;
-    margin-left: 3em;
-    
-    
+    margin-left: 14em;   
 }
